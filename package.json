@@ -1,0 +1,18 @@
+{
+  "name": "atom-android",
+  "main": "./lib/atom-android",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-android:toggle"
+  },
+  "repository": "https://github.com/lucafaggianelli/atom-android",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
