@@ -1,22 +1,18 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle atom-android",
-        "command": "atom-android:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-android",
+          "label": "Android",
           "submenu": [
             {
               "label": "Toggle",
               "command": "atom-android:toggle"
+            },
+            {
+              "label": "Build",
+              "command": "atom-android:build"
             }
           ]
         }
