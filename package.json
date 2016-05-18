@@ -1,8 +1,8 @@
 {
   "name": "atom-android",
   "main": "./lib/atom-android",
-  "version": "0.0.1",
-  "description": "A short description of your package",
+  "version": "0.0.2",
+  "description": "Build, run and debug Android applications",
   "keywords": [
   ],
   "activationCommands": {
@@ -14,5 +14,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-  }
+    "atom-package-deps": "4.0.x"
+  },
+  "package-deps": [
+    "build",
+    "build-gradle",
+    "language-gradle",
+    "language-groovy"
+  ]
 }
