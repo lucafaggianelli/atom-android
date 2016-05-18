@@ -7,10 +7,6 @@
           "label": "Android",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-android:toggle"
-            },
-            {
               "label": "Build",
               "command": "atom-android:build"
             }

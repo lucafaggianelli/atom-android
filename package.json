@@ -1,12 +1,11 @@
 {
   "name": "atom-android",
   "main": "./lib/atom-android",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Build, run and debug Android applications",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-android:toggle"
   },
   "repository": "https://github.com/lucafaggianelli/atom-android",
   "license": "MIT",
